@@ -1,6 +1,6 @@
 package model;
 
-public interface Servicable {
+public interface Serviceable {
     void service();
 
 

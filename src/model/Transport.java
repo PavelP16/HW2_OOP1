@@ -1,6 +1,6 @@
 package model;
 
-public abstract class Transport implements Servicable {
+public abstract class Transport implements Serviceable {
     private String modelName;
     private int wheelsCount;
 

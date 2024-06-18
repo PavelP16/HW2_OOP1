@@ -4,6 +4,7 @@ import model.Truck;
 import service.ServiceStation;
 
 
+
 public class Main {
     public static void main(String[] args) {
         Car car = new Car("car1");
@@ -25,5 +26,6 @@ public class Main {
         station.check(bicycle2);
         station.check(truck);
         station.check(truck2);
+
     }
 }
