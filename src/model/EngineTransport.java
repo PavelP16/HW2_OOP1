@@ -1,17 +1,20 @@
 package model;
 
 
-public class EngineTransport extends Transport{
+abstract public class EngineTransport extends Transport{
 
     public EngineTransport(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
 
-
-    @Override
     public void service() {
-
+        checkEngine();
     }
+
+    private void checkEngine() {
+        System.out.println("Проверяем двигатель");
+    }
+
 }
 
 
